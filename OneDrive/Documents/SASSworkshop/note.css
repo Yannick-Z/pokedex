@@ -1,0 +1,296 @@
+body {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: ;
+
+}
+
+header {
+    background-color: #008070;
+    height: 130px;
+    text-align: center;
+    
+   
+    font-size: 25px;
+    font-weight: bold;
+    
+    
+
+}
+
+header a {
+    text-decoration: none;
+    margin-top: 70px;
+    color: #ffe02f;
+}
+
+i {
+    background:-moz-linear-gradient(top, #e72c83 0%, #a742c6 100%); 
+        background: -webkit-linear-gradient(top, #e72c83 0%,#a742c6 100%); 
+        background: linear-gradient(to bottom, #e72c83 0%,#a742c6 100%);
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+       -webkit-text-fill-color:transparent;
+       width: 30%;
+}
+
+#lanote {
+    font-style: italic;
+    
+}
+
+
+ main {
+    background-color: #fae2eb;
+    height: auto;
+
+    
+    
+ }
+
+ span {
+     margin-left: 5%;
+     text-align: center;
+     margin-right: 8%;
+ }
+
+ h3 span {
+     font-size: 1.5em;
+ }
+
+ section div {
+     
+     margin-left: 15%;
+     text-align: justify;
+     font-size: 20px;
+     font-family: cursive;
+     display: flex;
+     
+ }
+ .bold {
+     margin-left: auto;
+     margin-right: 20%;
+ }
+
+ footer {
+    background-color: #fae2eb;
+    height: 100%;
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    
+    
+    
+ }
+
+a {
+    text-decoration: none;
+}
+
+
+ footer:hover  {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+  
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+
+  /* Responsive */
+
+  @media  screen and (max-width: 2560px)
+ {
+     div {
+        padding-left: 300px;
+        ;
+    }
+
+    .bold {
+        padding-right: 350px;
+        font-weight: bold;
+    }
+
+    p {
+        text-align: justify;
+        font-size: 30px;
+    }
+
+    main {
+        padding-left: 60px;
+    }
+
+    #lanote {
+        padding-right: 60px;
+        font-size: 30px;
+    }
+   
+    #note2 {
+        padding-right: 60px;
+        font-size: large;
+        font-style: italic;
+        font-size: 30px;
+
+    }
+
+    i {
+        font-size: 30px;
+    }
+
+    footer {
+        font-size: 30px;
+        padding-right: 14%;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+}
+
+@media  screen and (max-width: 2000px) {
+    .bold {
+        padding-right: initial;
+    }
+
+    div {
+        padding-left: 2%;
+    }
+
+    footer {
+        padding-right: 4%;
+    }
+}
+
+@media screen and (max-width:1500px)  {
+
+    .bold {
+        margin-right: 180px;
+    }
+
+    main {
+        padding-left: 0%;
+    }
+
+}
+
+@media screen and (max-width:1240px) {
+    .bold {
+        margin-right: 50px;
+    }
+    
+    p {
+        margin-left: -10%;
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+   p {
+    font-size: 20px;
+    }
+
+    
+
+    img {
+        margin-left: -14px;
+    }
+
+   h3 span {
+        font-size: 0.7em;
+    }
+
+    #lanote {
+        margin-right: -20px ;
+    }
+
+    #note2 {
+        margin-right: -20px;
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        width: 200px;
+        height:auto;
+    }
+
+    p {
+        font-size: 18px ;
+    }
+
+    #lanote {
+        margin-right: -30px ;
+        font-size: 25px;
+    }
+
+    #note2{
+        margin-right: -30px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    p {
+        font-size: 14px;
+        margin-right: 10%;
+    }
+
+    main {
+        width: unset;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    .bold {
+        margin-right: unset;
+        
+    }
+
+    div {
+        padding-left: 0;
+        padding-right: 30px;
+        font-size: unset;
+    }
+
+    footer {
+        font-size: unset;
+        padding-left: 30px;
+    }
+
+    #note2 {
+        font-size: 10px;
+        margin-left: 20px;
+    }
+    #lanote {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+}
